@@ -1,17 +1,21 @@
 #Author: your.sangeeth@your.domain.com
+
+@sangeeth  @san
 Feature: Add Tariff plan
 
-  Scenario: Validate add tariff plan module
-    Given user launches telecom applications
+Background:
+		Given user launches telecom applications
     And user click on add tariff plan button
+
+  Scenario: Validate add tariff plan module
+    
     When user need to fill up the fields by one dim list
       | 10 | 200 | 300 | 400 | 500 | 600 | 700 |
     And user click on submit button
     Then user verify Congratulation you add Tariff Plan is generated
-
+@sangeeth @kumar
   Scenario: Validate add tariff plan module
-    Given user launches telecom applications
-    And user click on add tariff plan button
+   
     When user need to fill up the fields by one dim map
       | rental      |   11 |
       | lname       | 2200 |
@@ -24,8 +28,7 @@ Feature: Add Tariff plan
     Then user verify Congratulation you add Tariff Plan is generated
 
   Scenario: Validate add tariff plan module
-    Given user launches telecom applications
-    And user click on add tariff plan button
+    
     When user need to fill up the fields by two dim list
       | 11 | 21 | 31 | 41 | 500 | 600 | 700 |
       | 12 | 22 | 32 | 42 | 500 | 600 | 700 |
@@ -34,8 +37,7 @@ Feature: Add Tariff plan
     Then user verify Congratulation you add Tariff Plan is generated
 
   Scenario: Validate add tariff plan module
-    Given user launches telecom applications
-    And user click on add tariff plan button
+    
     When user need to fill up the fields by two dim list
       | ren | lnm | ema | add | tele | san | pre |
       |  11 |  21 |  31 |  41 |  500 | 600 | 700 |
