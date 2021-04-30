@@ -13,7 +13,7 @@ Background:
       | 10 | 200 | 300 | 400 | 500 | 600 | 700 |
     And user click on submit button
     Then user verify Congratulation you add Tariff Plan is generated
-@sangeeth @kumar
+@sangeeth @kumar @ram
   Scenario: Validate add tariff plan module
    
     When user need to fill up the fields by one dim map

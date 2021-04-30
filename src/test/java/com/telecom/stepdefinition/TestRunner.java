@@ -6,8 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src//test//resources//Feature//AddTariff.feature",glue="com.telecom.stepdefinition",plugin="html:target",
-                  monochrome=true,dryRun=false,tags={"@sangeeth","@kumar"})
+@CucumberOptions(features="src//test//resources//Feature//Addcustomer.feature",glue="com.telecom.stepdefinition",plugin="html:target",
+                  monochrome=true,dryRun=false,tags="@sang")
 
 public class TestRunner {
 
